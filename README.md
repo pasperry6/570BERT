@@ -24,6 +24,7 @@ c) Which code files are the student's original code:
 None. Since there is just one file, and it is completely modified from the original.
 
 3) A description of the datasets I used and where I obtained them:
+
 .json file "dataset":
 Description: A list of news article headlines and a short description accompanying them.
 The .json file dataset was obtained through another repository that I was originally planning on using here is the link: https://huggingface.co/datasets/khalidalt/HuffPost/blob/main/News_Category_Dataset_v2.json
