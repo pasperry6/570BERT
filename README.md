@@ -1,12 +1,4 @@
 # 570BERT
-1) Explain how to run the experiments
-2) Describe:
- a) Which code files have been copied from other repositories with references to these
-repositories
- b) Which code files have been modified and how they have been modified
- c) Which code files are the student's original code.
-3) Include a description of the datasets you used and where you obtained them.
-
 1) How to run the experiments:
 There are three main experiments that I ran to test my BERT model. They are pretty simple to get running, especially because the code is in a juypter notebook. After commenting out some cells and modifying the path to file, simply run all the cells to get the output in the last cell of the notebook. 
 
@@ -22,7 +14,11 @@ The original notebook can be found at this link: https://colab.research.google.c
 And the blog from where the code is associated is here: https://neptune.ai/blog/how-to-code-bert-using-pytorch-tutorial
 
 b) Which code files have been modified and how they have been modified
-The whole notebook has been modified in the following ways:
+The whole notebook has been modified in the following ways: 
+1. The whole data setup for the datasets is my own code (cells 1-4)
+2. Parsing the data had to be modified to accomidate different datasets (cell 6)
+3. 
+4. The last cell has been completely modified to display the information that I want, and it calculates accuracy over the whole dataset. 
 
 c) Which code files are the student's original code:
 None. Since there is just one file, and it is completely modified from the original.
