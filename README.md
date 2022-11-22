@@ -6,7 +6,7 @@ To train BERT on sentences that you would like to write yourself, uncomment the 
 
 To train BERT on sentences from a json file found at this link: https://huggingface.co/datasets/khalidalt/HuffPost/blob/main/News_Category_Dataset_v2.json, comment out the code in cells four and five, and modify the path to the .json file to match where it can be found on your computer. 
 
-To train BERT on sentences from a text file included in the GitHub repository liked here: https://github.com/pasperry6/570BERT, comment out the code in cell five, and modify the path to the .txt file to match where it can be found on your computer. You can use any text file as a trainer in this way. The larger the text file, the better the training, in general. The origingal BERT uses a corpus of ~800M words. 
+To train BERT on sentences from a text file (I used stu1.txt) included in the GitHub repository liked here: https://github.com/pasperry6/570BERT, comment out the code in cell five, and modify the path to the .txt file to match where it can be found on your computer. You can use any text file as a trainer in this way. The larger the text file, the better the training, in general. The origingal BERT uses a corpus of ~800M words. 
 
 2) 
 a) Files that have been copied from other repositories with references to these repositories:  
@@ -17,8 +17,11 @@ b) Which code files have been modified and how they have been modified
 The whole notebook has been modified in the following ways: 
 1. The whole data setup for the datasets is my own code (cells 1-4)
 2. Parsing the data had to be modified to accomidate different datasets (cell 6)
-3. 
+3. The position-wise feed-forward network needed to be much deeper, so I edited this with more layers.
 4. The last cell has been completely modified to display the information that I want, and it calculates accuracy over the whole dataset. 
+5. The second to last cell is my code and it is the plot of the loss over each epoch 
+6. The training cell is modified to fit with the data I need
+7. There are other slight modifications made to make the model work with the new features added
 
 c) Which code files are the student's original code:
 None. Since there is just one file, and it is completely modified from the original.
