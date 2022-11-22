@@ -1,6 +1,6 @@
 # 570BERT
 1) How to run the experiments:
-There are three main experiments that I ran to test my BERT model. They are pretty simple to get running, especially because the code is in a juypter notebook. After commenting out some cells and modifying the path to file, simply run all the cells to get the output in the last cell of the notebook. 
+There are three main experiments that I ran to test my BERT model. They are pretty simple to get running, especially because the code is in a juypter notebook. After commenting out some cells and modifying the path to file, simply run all the cells to get the output in the last cell of the notebook. The test results that I achieved were not what I usually got, though. The accuracy is pretty inconsistent. 
 
 To train BERT on sentences that you would like to write yourself, uncomment the "text" definition in the 5th cell. This cell has a comment "to use whatever text you want" at the top. To use your own sentences, just make sure to add a newline character at the end of each sentence. 
 
