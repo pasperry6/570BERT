@@ -6,7 +6,7 @@ To train BERT on sentences that you would like to write yourself, uncomment the 
 
 To train BERT on sentences from a json file found at this link: https://huggingface.co/datasets/khalidalt/HuffPost/blob/main/News_Category_Dataset_v2.json, comment out the code in cells four and five, and modify the path to the .json file to match where it can be found on your computer. 
 
-To train BERT on sentences from a text file included in the GitHub repository, comment out the code in cell five, and modify the path to the .txt file to match where it can be found on your computer. You can use any text file as a trainer in this way. The larger the text file, the better the training, in general. The origingal BERT uses a corpus of ~800M words. 
+To train BERT on sentences from a text file included in the GitHub repository liked here: https://github.com/pasperry6/570BERT, comment out the code in cell five, and modify the path to the .txt file to match where it can be found on your computer. You can use any text file as a trainer in this way. The larger the text file, the better the training, in general. The origingal BERT uses a corpus of ~800M words. 
 
 2) 
 a) Files that have been copied from other repositories with references to these repositories:  
